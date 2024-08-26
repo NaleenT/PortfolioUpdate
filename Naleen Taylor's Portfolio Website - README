@@ -1,0 +1,48 @@
+Overview
+This project is a personal portfolio website for showcasing the skills, projects, and professional information of Naleen Taylor, an AI developer. The website is built using HTML, CSS, and includes multimedia elements to create an engaging and visually appealing online presence.
+
+Project Structure
+The project consists of the following main sections:
+
+1. HTML Structure
+Head Section:
+
+Includes meta tags for character set and viewport settings to ensure the website is responsive.
+Links the external CSS stylesheet (portfolio.css) for styling the webpage.
+Specifies the title of the webpage as "Naleen Taylor's Portfolio".
+Body Section:
+
+Navbar: A navigation bar with links to different sections of the website: Home, About, GitHub, LinkedIn, and Contact.
+Background Video: A video background in the Home section that plays automatically and loops. A fallback message is displayed if the video fails to load.
+Video Text: Overlay text on the video background welcoming visitors and featuring a quote by Joseph Weizenbaum.
+About Section: Provides a brief introduction to Naleen Taylor, highlighting her education, skills, and professional interests.
+GitHub Section: Directs users to Naleen's GitHub profile and showcases a project with an associated image.
+LinkedIn Section: Encourages visitors to check out Naleen's LinkedIn profile, with a clickable LinkedIn logo.
+Contact Section: Features a contact form where visitors can submit their name, email, and a message. The form data is processed via Formspree.
+Footer: A simple footer containing Naleen's name and a placeholder for additional links.
+2. CSS Styling
+The website's appearance is controlled through an external CSS file (portfolio.css). This file should be located in the stylesheet directory. The CSS defines the layout, colors, fonts, and other styling elements for the different sections of the website.
+
+3. Media Files
+The project references several media files:
+
+Background Video: PortfolioVid.mp4 located in the media folder.
+Images:
+ComputerPic.jpg for the About section.
+GitHub.png for the GitHub section.
+Linkedin.png for the LinkedIn section.
+Contactpic.jpg for the Contact section.
+How to Use
+Viewing the Website: Simply open the index.html file in any modern web browser to view the website.
+Editing the Website:
+Modify the HTML structure or text directly in the index.html file.
+Customize the appearance by editing the portfolio.css file in the stylesheet directory.
+Replace or update media files by placing new files in the media directory and updating the HTML file paths accordingly.
+Additional Notes
+Responsive Design: The website is designed to be responsive, ensuring it displays correctly on various devices, including desktops, tablets, and smartphones.
+External Links: Links to external profiles such as GitHub and LinkedIn are set to open in new tabs.
+Contact Form: The form submission is handled through Formspree. Ensure that the form action URL is correctly configured for your Formspree account.
+Credits
+Website Author: Naleen Taylor
+Quote: Joseph Weizenbaum
+Thank you for visiting and reviewing the portfolio website!
